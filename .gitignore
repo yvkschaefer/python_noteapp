@@ -1,8 +1,28 @@
-  # figure out a way to ignore venv properly 🤔
-  venv/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+noteapp/views/__pycache__/
+*.py[cod]
 
-  # ignore VS Code settings
-  .vscode/
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-  noteapp/notes/*
-  *.note
+# figure out a way to ignore venv properly 🤔
+venv/
+
+# ignore VS Code settings
+.vscode/
+
+*.note
+*.pyc
