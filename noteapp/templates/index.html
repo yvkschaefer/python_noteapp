@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="noteList">
+      {% for i in range(0, 100) %}
+        <div class="note">
+          <p>Example note</p>
+        </div>
+      {% endfor %}
+  </div>
+{% endblock %}
