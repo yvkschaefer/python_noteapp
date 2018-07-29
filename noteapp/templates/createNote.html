@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <form method="POST" action="">
+    <label for="notetext">
+        Note Text
+        <textarea name="noteText" id="noteText" cols="30" rows="10"></textarea>
+      </label>
+      <input type="submit" name="createNote" value="Save">
+  </form>
+{% endblock %}

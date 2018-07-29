@@ -3,3 +3,6 @@
 
   # ignore VS Code settings
   .vscode/
+
+  noteapp/notes/*
+  *.note
