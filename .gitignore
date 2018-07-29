@@ -1,1 +1,5 @@
-venv/
+  # figure out a way to ignore venv properly 🤔
+  venv/
+
+  # ignore VS Code settings
+  .vscode/
